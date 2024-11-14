@@ -1,4 +1,9 @@
-output "mock" {
-  description = "Mock output example for the Cloud Posse Terraform component template"
-  value       = local.enabled ? "hello ${basename(abspath(path.module))}" : ""
+output "dms_endpoint_id" {
+  value       = module.dms_endpoint.endpoint_id
+  description = "DMS endpoint ID"
+}
+
+output "dms_endpoint_arn" {
+  value       = module.dms_endpoint.endpoint_arn
+  description = "DMS endpoint ARN"
 }
