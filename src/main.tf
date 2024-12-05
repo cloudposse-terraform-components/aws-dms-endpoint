@@ -15,7 +15,7 @@ data "aws_ssm_parameter" "password" {
 
 module "dms_endpoint" {
   source  = "cloudposse/dms/aws//modules/dms-endpoint"
-  version = "0.1.1"
+  version = "0.2.0"
 
   endpoint_type                   = var.endpoint_type
   engine_name                     = var.engine_name
