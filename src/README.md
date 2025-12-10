@@ -97,7 +97,7 @@ components:
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_dms_endpoint"></a> [dms\_endpoint](#module\_dms\_endpoint) | cloudposse/dms/aws//modules/dms-endpoint | 1.3.1 |
+| <a name="module_dms_endpoint"></a> [dms\_endpoint](#module\_dms\_endpoint) | cloudposse/dms/aws//modules/dms-endpoint | 2.0.0 |
 | <a name="module_iam_roles"></a> [iam\_roles](#module\_iam\_roles) | ../../account-map/modules/iam-roles | n/a |
 | <a name="module_this"></a> [this](#module\_this) | cloudposse/label/null | 0.25.0 |
 
